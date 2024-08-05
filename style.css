@@ -1,9 +1,29 @@
-h1 {
+*{
+    border: .5px greenyellow solid;
+    margin: 0;
+}
+
+.navi {
     background-color: blueviolet;
+    padding: 8px;
+}
+
+.navi a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
 }
 
 h2 {
     color: aquamarine;
     background-color: black;
+}
+
+ul {
+    margin: 10px 0;
 }
