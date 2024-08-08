@@ -1,29 +1,38 @@
 *{
-    border: .5px greenyellow solid;
     margin: 0;
+    color: #191516;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navi {
-    background-color: blueviolet;
+    background-color: #C9DAEA;
     padding: 8px;
+}
+
+.navi *{
+    background-color: #AB2346;
+    border-radius: 12px;
+    padding: 4px;
 }
 
 .navi a {
     margin-left: 20px;
-    text-decoration: none;
-    color: blanchedalmond;
 }
 
-h1 {
+.navi h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
     display: inline;
-}
-
-h2 {
-    color: aquamarine;
-    background-color: black;
 }
 
 ul {
     margin: 10px 0;
+}
+
+img {
+    width: 400px;
+    margin: 10px;
 }
