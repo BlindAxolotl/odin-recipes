@@ -10,6 +10,9 @@ a {
 .navi {
     background-color: #C9DAEA;
     padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navi *{
@@ -18,14 +21,9 @@ a {
     padding: 4px;
 }
 
-.navi a {
-    margin-left: 20px;
-}
-
 .navi h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
-    display: inline;
 }
 
 ul {
